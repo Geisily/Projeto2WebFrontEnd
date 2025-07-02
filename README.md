@@ -2,7 +2,7 @@
 Aplicação web contendo três jogos educativos desenvolvidos com tecnologias front-end básicas:
 Jogo 1: Adivinhação de Número Secreto (versão com alerts)
 Jogo 2: Número Secreto Interativo (com interface gráfica)
-Jogo 3: Calculadora de Médias Escolares
+Jogo 3: Calculadora de Médias
 
 🛠 Tecnologias Utilizadas
 Linguagens: HTML5, CSS3, JavaScript (ES6)
@@ -28,9 +28,7 @@ Feedback visual instantâneo
 Sistema de reinicialização
 3. Jogo de Cálculo de Média
 Funcionalidades:
-Entrada de 4 notas escolares
+Entrada de 4 números
 Cálculo automático da média
-Diagnóstico (Aprovado/Recuperação/Reprovado)
 Lógica:
 Validação de inputs
-Categorização por faixas de notas
