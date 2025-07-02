@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jogos Educativos</title>
     <style>
         body {
@@ -15,6 +15,13 @@
         }
         h1 {
             color: #9b59b6;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 40px;
         }
         .game-buttons {
             display: flex;
@@ -39,13 +46,15 @@
     </style>
 </head>
 <body>
-    <h1>Jogos Educativos em JavaScript</h1>
-    <p>Escolha um dos jogos abaixo para começar:</p>
-    
-    <div class="game-buttons">
-        <button onclick="abrirJogo1()">Jogo dos Números Secretos</button>
-        <button onclick="abrirJogo2()">Jogo do Número Secreto Interativo</button>
-        <button onclick="abrirJogo3()">Jogo de Cálculo de Média</button>
+    <div class="container">
+        <h1>Jogos Educativos em JavaScript</h1>
+        <p>Escolha um dos jogos abaixo para começar:</p>
+        
+        <div class="game-buttons">
+            <button onclick="abrirJogo1()">Jogo dos Números Secretos</button>
+            <button onclick="abrirJogo2()">Jogo do Número Secreto Interativo</button>
+            <button onclick="abrirJogo3()">Jogo de Cálculo de Média</button>
+        </div>
     </div>
 
     <script>
