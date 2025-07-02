@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jogo dos Números Secretos</title>
     <style>
         body {
@@ -12,6 +12,14 @@
             padding: 20px;
             text-align: center;
             background-color: #f5f5f5;
+        }
+        /* Adicionando a moldura branca */
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 40px;
         }
         h1 {
             color: #9b59b6;
@@ -39,13 +47,15 @@
     </style>
 </head>
 <body>
-    <h1>Jogo dos Números Secretos</h1>
-    <p>Tente adivinhar o número secreto entre 1 e 100!</p>
-    
-    <button onclick="iniciarJogo()">Jogar</button>
-    <button onclick="window.location.href='index.html'">Voltar</button>
-    
-    <div id="dica"></div>
+    <div class="container">
+        <h1>Jogo dos Números Secretos</h1>
+        <p>Tente adivinhar o número secreto entre 1 e 100!</p>
+        
+        <button onclick="iniciarJogo()">Jogar</button>
+        <button onclick="window.location.href='index.html'">Voltar</button>
+        
+        <div id="dica"></div>
+    </div>
 
     <script>
         let numeroSecreto;
